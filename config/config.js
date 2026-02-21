@@ -152,7 +152,7 @@ let config = {
 					{
 						name: "Buffer",
 						url: "https://calendar.google.com/calendar/ical/36ca1582ab365cd11661878c1da0b20beedb3091afb8fc5ed00bcd981ad62f81%40group.calendar.google.com/private-ae4ca5942beacb563dceeba67936a14f/basic.ics",
-						color: "#FFA500"
+						color: "#5a5a5aff"
 					},
 					{
 						name: "couple",
@@ -165,19 +165,19 @@ let config = {
 						color: "#d4db70ff"
 					},
 					{
-						name: "social",
+						name: "holiday",
 						url: "https://calendar.google.com/calendar/ical/7a6ea1b4353aab5199095c2352203c4ad5fb862d2758cb3277b41760a28cb74b%40group.calendar.google.com/private-f43b0ea11626e3f0557097114e02c6bc/basic.ics",
-						color: "#20B2AA"
+						color: "#ff0000ff"
 					},
 					{
-						name: "holiday",
+						name: "social",
 						url: "https://calendar.google.com/calendar/ical/3d59b442abdc9c1712cabd4ac0cf4ff38408f341a6855fd1b0d379e0d9148b5f%40group.calendar.google.com/private-c78d459d291e70792f87fda5cdc9b8fe/basic.ics",
-						color: "#00ddffff"
+						color: "#00fff7ff"
 					},
 					{
 						name: "Work",
 						url: "https://calendar.google.com/calendar/ical/8ccac9000624ed5f2363b7c79fde5d72edffa347954737e01e707d1c5d597c01%40group.calendar.google.com/private-0612b45a9c74fdb577652dc6e7e5a8f1/basic.ics",
-						color: "#4169E1"
+						color: "#ff9100ff"
 					},
 					{
 						name: "workout",
@@ -196,7 +196,7 @@ let config = {
 				type: "hourly",
 				lat: 55.6761,
 				lon: 12.5683,
-				maxEntries: 8,
+				maxEntries: 12,
 				showPrecipitationAmount: true,
 				colored: true,
 				showFeelsLike: false
