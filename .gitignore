@@ -81,3 +81,9 @@ yarn.lock
 
 # Vitest temporary test files
 tests/**/.tmp/
+
+# Secrets: config.js is generated from config.js.template + config.env
+config/config.js
+config/config.js-old
+config/config.env
+.env

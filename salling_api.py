@@ -1,8 +1,9 @@
 
+import os
 import requests
 from typing import Optional, List, Dict, Any
 
-API_KEY = "SG_APIM_RXV2HTA2168ET0BQDBS8CTATBZ71QXFC6S0X1ANGCJ0R5020WDDG"
+API_KEY = os.environ.get("SALLING_API_KEY", "")
 BASE_URL = "https://api.sallinggroup.com/v1/food-waste"
 
 

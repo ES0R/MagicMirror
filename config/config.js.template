@@ -65,7 +65,7 @@ let config = {
 				calendars: [
 					{
 						symbol: "utensils",
-						url: "https://calendar.google.com/calendar/ical/0d3515a0577c06df61a9c264fa597255b7268648684370cfb770618d7f8681c9%40group.calendar.google.com/private-8a24382b7bd974168e494e7189afb890/basic.ics",
+						url: "${CAL_FOOD}",
 						color: "#FF6347"
 					}
 				]
@@ -105,7 +105,7 @@ let config = {
 				calendars: [
 					{
 						symbol: "tasks",
-						url: "https://calendar.google.com/calendar/ical/emiloramovic%40gmail.com/private-3e0333746d580633a5850ffa7cea7371/basic.ics",
+						url: "${CAL_TASKS}",
 						color: "#FFD700",
 						fetchInterval: 60000
 					}
@@ -126,7 +126,7 @@ let config = {
 				calendars: [
 					{
 						symbol: "calendar",
-						url: "https://calendar.google.com/calendar/ical/75b415976d2dc5e3535748f459014ef64bf11efe61cf7f2438978e5197488e0c%40group.calendar.google.com/private-323e1913dddbbe7939ffda133d8a605a/basic.ics",
+						url: "${CAL_EVENTS}",
 						color: "#00CED1"
 					}
 				]
@@ -141,47 +141,47 @@ let config = {
 				calendars: [
 					{
 						name: "Tasks",
-						url: "https://calendar.google.com/calendar/ical/emiloramovic%40gmail.com/private-3e0333746d580633a5850ffa7cea7371/basic.ics",
+						url: "${CAL_TASKS}",
 						color: "#FFD700"
 					},
 					{
 						name: "Personal",
-						url: "https://calendar.google.com/calendar/ical/c62acfd76f2e331620fac3e2b7da16466c7e0f5ce56d7d60835ee4f595c9e526%40group.calendar.google.com/private-50273ca55676b3a26a5ba1933d153e3a/basic.ics",
+						url: "${CAL_PERSONAL}",
 						color: "#32CD32"
 					},
 					{
 						name: "Buffer",
-						url: "https://calendar.google.com/calendar/ical/36ca1582ab365cd11661878c1da0b20beedb3091afb8fc5ed00bcd981ad62f81%40group.calendar.google.com/private-ae4ca5942beacb563dceeba67936a14f/basic.ics",
+						url: "${CAL_BUFFER}",
 						color: "#5a5a5aff"
 					},
 					{
 						name: "couple",
-						url: "https://calendar.google.com/calendar/ical/740061f28a7ebf6130265eec1cfad4ddf9679b9e2ac24d0bf06b6c6d8340a5a3%40group.calendar.google.com/private-6ea53443903363eb71eaa8ff475ad160/basic.ics",
+						url: "${CAL_COUPLE}",
 						color: "#ff69a8ff"
 					},
 					{
 						name: "Projects",
-						url: "https://calendar.google.com/calendar/ical/7a6ea1b4353aab5199095c2352203c4ad5fb862d2758cb3277b41760a28cb74b%40group.calendar.google.com/private-d8fefa4de25ecd5422aa8835803b4485/basic.ics",
+						url: "${CAL_PROJECTS}",
 						color: "#d4db70ff"
 					},
 					{
 						name: "holiday",
-						url: "https://calendar.google.com/calendar/ical/7a6ea1b4353aab5199095c2352203c4ad5fb862d2758cb3277b41760a28cb74b%40group.calendar.google.com/private-f43b0ea11626e3f0557097114e02c6bc/basic.ics",
+						url: "${CAL_HOLIDAY}",
 						color: "#ff0000ff"
 					},
 					{
 						name: "social",
-						url: "https://calendar.google.com/calendar/ical/3d59b442abdc9c1712cabd4ac0cf4ff38408f341a6855fd1b0d379e0d9148b5f%40group.calendar.google.com/private-c78d459d291e70792f87fda5cdc9b8fe/basic.ics",
+						url: "${CAL_SOCIAL}",
 						color: "#00fff7ff"
 					},
 					{
 						name: "Work",
-						url: "https://calendar.google.com/calendar/ical/8ccac9000624ed5f2363b7c79fde5d72edffa347954737e01e707d1c5d597c01%40group.calendar.google.com/private-0612b45a9c74fdb577652dc6e7e5a8f1/basic.ics",
+						url: "${CAL_WORK}",
 						color: "#ff9100ff"
 					},
 					{
 						name: "workout",
-						url: "https://calendar.google.com/calendar/ical/a2f816c765010148264bc0523e624c83d21cdab1ef6ebb9f3d9b2cee22d174e4%40group.calendar.google.com/private-420184ab0fc0e61c09bf4a4c48a955cd/basic.ics",
+						url: "${CAL_WORKOUT}",
 						color: "#a314dcff"
 					}
 				]
